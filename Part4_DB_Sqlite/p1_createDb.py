@@ -10,7 +10,7 @@ import sqlite3 # note, sqlite3 comes with python3
 # Connecting to sqlite
 # connection object
 connect = sqlite3.connect('./Part4_DB_Sqlite/patients.db')
- 
+
 # db object
 db = connect.cursor()
 

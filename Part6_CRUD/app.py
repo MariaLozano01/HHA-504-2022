@@ -34,6 +34,7 @@ class Patients(db.Model):
         self.mrn = mrn
         self.first_name = first_name
         self.last_name = last_name
+        
 
     # this second function is for the API endpoints to return JSON 
     def to_json(self):

@@ -110,9 +110,6 @@ create table if not exists production_conditions (
 ); 
 """
 
-
-
-
 table_prod_patients_medications = """
 create table if not exists production_patient_medications (
     id int auto_increment,
